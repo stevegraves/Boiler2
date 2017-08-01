@@ -7,10 +7,17 @@
         "react",
         "jsx-a11y",
         "import",
-        "flowtype"
+        "flowtype",
+        "compat"
     ],
+    "rules": {
+        "compat/compat": 2
+    },
     "env": {
         "browser": true,
         "jest": true
+    },
+    "settings": {
+        "polyfills": ["fetch"]
     }
 }
